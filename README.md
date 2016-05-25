@@ -1,8 +1,13 @@
 # RandomEvent
-
 ***provide simple api to receive android system random event***
 
 ---
+## Now Support Random Event
+ * SCREEN_ON: equals Intent.ACTION_SCREEN_ON;
+ * SCREEN_OFF: equals Intent.ACTION_SCREEN_OFF;
+ * BATTERY_CHANGED: equals Intent.ACTION_BATTERY_CHANGED;
+ * TIME_TICK: equals Intent.ACTION_TIME_TICK;
+--------------------------------------
 ## Usage
 ### Step 1: call RandomEventManager.init(Context) in you application onCreate() method
 ```java
