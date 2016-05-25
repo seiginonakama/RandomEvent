@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">demo</string>
+    <string name="wait_for_event">wait for event</string>
+</resources>
