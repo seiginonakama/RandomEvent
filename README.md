@@ -2,6 +2,18 @@
 ***provide simple api to receive android system random event***
 
 ---
+
+### Import
+```gradle
+repositories {
+  jcenter()
+}
+dependencies {
+  compile 'me.touko.randomevent:RandomEventLib:0.8.0'
+}
+```
+
+---
 ## Now Support Random Event
  * SCREEN_ON: equals Intent.ACTION_SCREEN_ON;
  * SCREEN_OFF: equals Intent.ACTION_SCREEN_OFF;
